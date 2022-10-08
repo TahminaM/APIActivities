@@ -1,6 +1,3 @@
-﻿// Tahmina A Munni
-//Prof: Serra Canca 
-
 
 namespace MyConsoleApplication
 {
@@ -8,7 +5,7 @@ namespace MyConsoleApplication
     //Interface
     interface MyInterface
     {
-        // 3 Methods
+        // Methods
         int Age { get; set; }
         string Name { get; set; }
         bool IsAlive { get; set; }
@@ -38,8 +35,8 @@ namespace MyConsoleApplication
 
         public void ShowInfo(MyClass avenger)
         {
-            Console.WriteLine ($"When Dad died, {avenger.Name} was {avenger.Age}.");
-            Thread.Sleep(3000);
+            Console.WriteLine ($"When Dad died, {avenger.Name} was only {avenger.Age}.");
+            Thread.Sleep(4000);
 
             OnInfoDisplayed();
         }
@@ -58,7 +55,7 @@ namespace MyConsoleApplication
     {
         public void OnInfoDisplayed (object source, EventArgs eventargs)
         {
-            Console.WriteLine("She Miss him!!");
+            Console.WriteLine("She Miss him everyday!!");
         }
 
     }
