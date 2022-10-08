@@ -13,6 +13,7 @@ namespace MyConsoleApplication
 
     class MyClass : MyInterface
     {
+        //Property
         private int age;
         private string name;
         private bool isAlive;
