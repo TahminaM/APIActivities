@@ -47,12 +47,12 @@ namespace CallAPI
                     var resultRead = await result.Content.ReadAsStringAsync();
                     var film = JsonConvert.DeserializeObject<Film>(resultRead);
 
-                    Console.WriteLine("---");
-                    Console.WriteLine("Name: " + film.Name);
-                    Console.WriteLine("Film #" + film.Id);
-                    Console.WriteLine("Name: " + film.Producer);
-                    Console.WriteLine("Type " + film.Type);
-                    Console.WriteLine("\n---");
+                    Console.WriteLine("------------------xxx-----------------");
+                    Console.WriteLine("Film Name: " + film.Name);
+                    Console.WriteLine("Film # " + film.Id);
+                    Console.WriteLine("Producer Name: " + film.Producer);
+                    Console.WriteLine("Film Type " + film.Type);
+                    Console.WriteLine("\n-----------------xxx----------------");
 
                 }
                 catch (Exception)
