@@ -1,2 +1,2 @@
-# APIActivities
+# API Activities
 Intro to API
